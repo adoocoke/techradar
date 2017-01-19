@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "MME's Technology Radar";
+document.title = "***'s Technology Radar";
 
 
 //This is the concentic circles that want on your radar
@@ -56,17 +56,17 @@ var radar_data = [
         "color": "#8FA227",
         "items": [
             {name: 'Git flow / Pull Requests ^', pc: {r: 230, t: 133}, movement: 'c'},
-            {"name": "SBT", "pc": {"r": 250, "t": 165}, "movement": "c"},
-            {"name": "Flyaway", "pc": {"r": 225, "t": 120}, "movement": "c"},
-            {"name": "Node", "pc": {"r": 280, "t": 110}, "movement": "c"},
-            {"name": "XP", "pc": {"r": 230, "t": 110}, "movement": "c"},
-            {"name": "Single Page App", "pc": {"r": 150, "t": 95}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Build Pipelines", "pc": {"r": 180, "t": 100}, "movement": "c"},
-            {"name": "Clean Code", "pc": {"r": 130, "t": 120}, "movement": "c"},
-            {"name": "E2E test", "pc": {"r": 130, "t": 165}, "movement": "c"},
-            {"name": "Code Reviews", "pc": {"r": 110, "t": 110}, "movement": "c"},
-            {"name": "Coding architects", "pc": {"r": 90, "t": 170}, "movement": "c"}
-
+            {name: "SBT", pc: {"r": 250, "t": 165}, movement: "c"},
+            {name: "Flyaway", pc: {"r": 225, "t": 120}, movement: "c"},
+            {name: "Node", pc: {"r": 280, "t": 110}, movement: "c"},
+            {name: "XP", pc: {"r": 230, "t": 110}, movement: "c"},
+            {name: "Single Page App", pc: {"r": 150, "t": 95}, movement: "c", "url": "http://www.google.com"},
+            {name: "Build Pipelines", pc: {"r": 180, "t": 100}, movement: "c"},
+            {name: "Clean Code", pc: {"r": 130, "t": 120}, movement: "c"},
+            {name: "E2E test", pc: {"r": 130, "t": 165}, movement: "c"},
+            {name: "Code Reviews", pc: {"r": 110, "t": 110}, movement: "c"},
+            {name: "Pug/Jade", pc: {"r": 110, "t": 110}, movement: "c"},
+            {name: "Coding architects", pc: {"r": 90, "t": 170}, movement: "c"}
         ]
     },
     {
@@ -75,25 +75,21 @@ var radar_data = [
         "top": 18,
         "color": "#587486",
         "items": [
-
-            {name: 'Docker', pc: {r: 170, t: 19}, movement: 't'},
-            {name: 'GoCD', pc: {r: 150, t: 69}, movement: 'c'},
-            {name: 'RAML', pc: {r: 180, t: 82}, movement: 'c'},
-            {name: 'Mockito', pc: {r: 170, t: 84}, movement: 'c', domain: 'back-end'},
-            {name: 'Json Web Tokens (JWT)', pc: {r: 180, t: 77}, movement: 'c'},
-            {name: 'Sonar', pc: {r: 160, t: 82}, movement: 'c'},
-            {name: 'Git', pc: {r: 130, t: 73}, movement: 'c'},
-
-            {name: 'Ansible', pc: {r: 280, t: 74}, movement: 'c'},
-            {name: 'Trello', pc: {r: 260, t: 75}, movement: 'c'},
-            {name: 'Jira', pc: {r: 260, t: 48}, movement: 'c'},
-            {name: 'Jacoco', pc: {r: 280, t: 51}, movement: 'c'},
-
-            {name: 'ELK', pc: {r: 30, t: 72}, movement: 'c', domain: 'back-end'},
-            {name: 'SBT', pc: {r: 80, t: 76}, movement: 'c'},
-
-            {name: 'Postgres', pc: {r: 330, t: 5}, movement: 'c'},
-            {name: 'Cucumber', pc: {r: 330, t: 18}, movement: 'c'}
+            {'name': 'Docker', pc: {r: 170, t: 19}, movement: 't'},
+            {'name': 'GoCD', pc: {r: 150, t: 69}, movement: 'c'},
+            {'name': 'RAML', pc: {r: 180, t: 82}, movement: 'c'},
+            {'name': 'Mockito', pc: {r: 170, t: 84}, movement: 'c', domain: 'back-end'},
+            {'name': 'Json Web Tokens (JWT)', pc: {r: 180, t: 77}, movement: 'c'},
+            {'name': 'Sonar', pc: {r: 160, t: 82}, movement: 'c'},
+            {'name': 'Git', pc: {r: 130, t: 73}, movement: 'c'},
+            {'name': 'Ansible', pc: {r: 280, t: 74}, movement: 'c'},
+            {'name': 'Trello', pc: {r: 260, t: 75}, movement: 'c'},
+            {'name': 'Jira', pc: {r: 260, t: 48}, movement: 'c'},
+            {'name': 'Jacoco', pc: {r: 280, t: 51}, movement: 'c'},
+            {'name': 'ELK', pc: {r: 30, t: 72}, movement: 'c', domain: 'back-end'},
+            {'name': 'SBT', pc: {r: 80, t: 76}, movement: 'c'},
+            {'name': 'Postgres', pc: {r: 330, t: 5}, movement: 'c'},
+            {'name': 'Cucumber', pc: {r: 330, t: 18}, movement: 'c'}
         ]
     },
     {
@@ -102,24 +98,10 @@ var radar_data = [
         "top": (h / 2 + 18),
         "color": "#DC6F1D",
         "items": [
-
-            {"name": "OpenId Connect", "pc": {"r": 130, "t": 260}, "movement": "t"},
-            {"name": "Location based services", "pc": {"r": 130, "t": 230}, "movement": "c"},
-            {"name": "Openstack", "pc": {"r": 190, "t": 190}, "movement": "c"},
-            {"name": "RHEL 7", "pc": {"r": 170, "t": 215}, "movement": "c"},
-
-            {"name": "App containers", "pc": {"r": 250, "t": 260}, "movement": "c"},
-            {"name": "Google Cloud Data Flow", "pc": {"r": 275, "t": 260}, "movement": "t"},
-            {name: 'Postgres as NoSQL', pc: {r: 220, t: 255}, movement: 'c'},
-            {"name": "Ali Cloud", "pc": {"r": 270, "t": 195}, "movement": "c"},
-
-
-            {"name": "Google Play - (alpha/beta builds)", "pc": {"r": 30, "t": 225}, "movement": "c"},
-            {"name": "JVM as platform", "pc": {"r": 90, "t": 265}, "movement": "c"},
-            {"name": "ALi Clude", "pc": {"r": 90, "t": 250}, "movement": "c"},
-            {name: 'BigIP v11', pc: {r: 50, t: 257}, movement: 'c'},
-
-            {"name": "Ruby On Rails", "pc": {"r": 390, "t": 215}, "movement": "c"}
+            {name: "Location based services", pc: {"r": 130, "t": 230}, movement: "c"},
+            {name: "Ali Cloud", pc: {"r": 270, "t": 195}, movement: "c"},
+            {name: "ALi Cloud", pc: {"r": 90, "t": 250}, movement: "c"},
+            {name: "Ruby On Rails", pc: {"r": 390, "t": 215}, movement: "c"}
 
         ]
     },
@@ -129,29 +111,17 @@ var radar_data = [
         "left": (w - 200 + 30),
         "top": (h / 2 + 18),
         "items": [
-            {name: 'CDI', pc: {r: 60, t: 290}, movement: 'c'},
+            {name: 'Vue.js', pc: {r: 60, t: 290}, movement: 'c'},
             {name: 'Jersey', pc: {r: 60, t: 310}, movement: 'c'},
-
             {name: 'Guice', pc: {r: 60, t: 278}, movement: 'c'},
-            {name: 'RxJava', pc: {r: 150, t: 298}, movement: 'c', domain: 'template'},
-
-            {"name": "Java 8", "pc": {"r": 130, "t": 355}, "movement": "c"},
-            {"name": "Groovy ^", "pc": {"r": 190, "t": 280}, "movement": "c"},
-
-            {"name": "Swift", "pc": {"r": 280, "t": 300}, "movement": "c"},
-            {"name": "Scala - the good parts ^", "pc": {"r": 290, "t": 320}, "movement": "c"},
-            {"name": "Serverside Javascript", "pc": {"r": 220, "t": 275}, "movement": "c"},
-            {"name": "Coffeescript", "pc": {"r": 270, "t": 282}, "movement": "c"},
-            {"name": "Functional Reactive Programming", "pc": {"r": 285, "t": 330}, "movement": "c"},
-            {"name": "Clojure", "pc": {"r": 280, "t": 310}, "movement": "c"},
-            {name: 'RxJs', pc: {r: 250, t: 338}, movement: 'c', domain: 'template'},
-            {name: 'Web Components', pc: {r: 260, t: 330}, movement: 'c'},
-
-            {name: 'Mustache/Handlebars template', pc: {r: 50, t: 298}, movement: 'c', domain: 'template'},
+            {name: "Java 8", pc: {"r": 130, "t": 355}, movement: "c"},
+            {name: "Scala - the good parts ^", pc: {"r": 290, "t": 320}, movement: "c"},
+            {name: "Play2.5", pc: {"r": 220, "t": 275}, movement: "c"},
+            {name: "Ruby", pc: {"r": 270, "t": 282}, movement: "c"},
+            {name: "ECMA2016", pc: {"r": 285, "t": 330}, movement: "c"},
+            {name: "Actor", pc: {"r": 280, "t": 310}, movement: "c"},
             {name: 'Spring ^', pc: {r: 360, t: 330}, movement: 'c'},
-            {"name": "Web Objects", "pc": {"r": 390, "t": 290}, "movement": "c"},
-            {"name": "ASP Classic", "pc": {"r": 375, "t": 330}, "movement": "c"},
-            {"name": "Java 6 and earlier", "pc": {"r": 390, "t": 350}, "movement": "c"}
+            {name: "Web Objects", pc: {"r": 390, "t": 290}, movement: "c"}
         ]
     }
 ];
